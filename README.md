@@ -38,7 +38,23 @@
 
 A typical project structure might look like this:
 
-├── app │ ├── api │ │ ├── endpoints │ │ └── dependencies │ ├── core │ │ ├── config.py │ │ └── logging.py │ ├── models │ ├── services │ └── main.py ├── tests │ ├── test_main.py │ └── ... ├── Dockerfile ├── docker-compose.yml ├── requirements.txt └── README.md
+├── app
+│   ├── api
+│   │   ├── endpoints
+│   │   └── dependencies
+│   ├── core
+│   │   ├── config.py
+│   │   └── logging.py
+│   ├── models
+│   ├── services
+│   └── main.py
+├── tests
+│   ├── test_main.py
+│   └── ...
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
 
 
 ## Installation
@@ -96,4 +112,4 @@ Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your improvements. Ensure all tests pass before submitting your changes.
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
