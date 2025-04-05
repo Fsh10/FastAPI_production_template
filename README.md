@@ -37,7 +37,7 @@
 ## Project Structure
 
 A typical project structure might look like this:
-
+```bash
 ├── app
 │   ├── api
 │   │   ├── endpoints
@@ -55,17 +55,17 @@ A typical project structure might look like this:
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Installation
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/fsh10/FastAPI_production_template.git
-   cd FastAPI_production_template
-   ```
+**Clone the Repository:**
+```bash
+git clone https://github.com/fsh10/FastAPI_production_template.git
+cd FastAPI_production_template
+```
 Create a Virtual Environment:
-   ```bash
+```bash
 python -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
 ```
