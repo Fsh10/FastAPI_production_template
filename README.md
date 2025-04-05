@@ -45,7 +45,7 @@ A typical project structure might look like this:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Z-I-Tech/FastAPI_production_template.git
+   git clone https://github.com/fsh10/FastAPI_production_template.git
    cd FastAPI_production_template
 Create a Virtual Environment:
 
