@@ -47,40 +47,51 @@ A typical project structure might look like this:
    ```bash
    git clone https://github.com/fsh10/FastAPI_production_template.git
    cd FastAPI_production_template
+   ```
 Create a Virtual Environment:
-
+   ```bash
 python -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
+```
 Install Dependencies:
-
+   ```bash
 pip install -r requirements.txt
+```
 Configuration
 Customize your project settings in the configuration file (app/core/config.py). Adjust parameters for logging, error handling, and environment variables as needed for your specific deployment environment.
 
 Usage
 Run the application using Uvicorn:
-
+   ```bash
 uvicorn app.main:app --reload
+```
 Then, navigate to http://localhost:8000 to access your FastAPI application.
 
 Testing and CI/CD
 Ensure your application remains reliable with the included sample tests:
-
+   ```bash
 pytest
+```
 Integrate these tests into your CI/CD pipeline to automate testing and deployment processes.
 
 Deployment
 Using Docker
 Build the Docker image:
-
+   ```bash
 docker build -t fastapi_app .
-Run the container:
+```
 
+Run the container:
+   ```bash
 docker run -d -p 8000:8000 fastapi_app
+```
+
 Using Docker Compose
 Alternatively, deploy with Docker Compose:
-
+   ```bash
 docker-compose up --build
+```
+
 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your improvements. Ensure all tests pass before submitting your changes.
 
